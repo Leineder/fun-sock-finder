@@ -21,12 +21,18 @@ GitHub Actions (every 3h, free)         Vercel (free)
        └─ commits the updated JSON  ──────────────▲
 ```
 
-**The catch:** Target blocks *some* datacenter IP addresses with a captcha, and
-every GitHub Actions run gets a **fresh, rotating IP**. So the job runs several
-times a day. Any run that gets blocked just **keeps the last good data** and the
-next run (new IP) tries again. Over a day this captures Target's catalog
-reliably without any babysitting. This is also why the fetch can't run inside
-Vercel itself — Vercel's serverless IPs get blocked the same way.
+**The catch:** Target captcha-blocks **datacenter IP addresses** — and that
+includes GitHub Actions runners (Azure) and Vercel's serverless functions
+(tested: blocked every time). So the cloud fetcher routes its request through a
+**residential-proxy / scraping API** that fetches Target from a home-grade IP
+Target trusts. The free tier of [ScraperAPI](https://www.scraperapi.com)
+(1,000 requests/month) is plenty for a once-a-day sock check. You add the key as
+a repo secret (see setup). Every run still **fails safe** — if a fetch is
+blocked or errors, it keeps the last good data and the next run retries.
+
+> Running `npm run fetch` from your own home internet needs **no proxy key** at
+> all (your residential IP is already trusted) — handy for seeding real data on
+> demand.
 
 ## One-time setup
 
@@ -55,14 +61,23 @@ New repository variable**. Add:
 store, and look at the URL — it ends in the number, e.g.
 `target.com/sl/store-name/**3991**`.
 
-### 3. Deploy the site to Vercel
+### 3. Add a free proxy key (so the cloud fetcher isn't blocked)
+
+1. Sign up free at [scraperapi.com](https://www.scraperapi.com) and copy your
+   **API key**.
+2. In the repo: **Settings → Secrets and variables → Actions → Secrets tab →
+   New repository secret**. Name it `SCRAPER_API_KEY`, paste the key.
+
+(Skip this only if you'll just run `npm run fetch` from home yourself.)
+
+### 4. Deploy the site to Vercel
 
 - Go to [vercel.com](https://vercel.com) → **Add New → Project** → import the
   GitHub repo. Framework auto-detects as **Next.js**. Click **Deploy**. Done —
   you get a free `*.vercel.app` URL.
 - Every time the fetcher commits new socks, Vercel redeploys automatically.
 
-### 4. Kick off the first real fetch
+### 5. Kick off the first real fetch
 
 In the repo: **Actions → Fetch fun socks → Run workflow**. (Re-run it a couple
 times if the first attempt hits a captcha — different IP each time.) Once it

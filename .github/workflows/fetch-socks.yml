@@ -33,6 +33,10 @@ jobs:
           TARGET_STORE_ID: ${{ vars.TARGET_STORE_ID }}
           TARGET_STORE_NAME: ${{ vars.TARGET_STORE_NAME }}
           TARGET_KEYWORD: ${{ vars.TARGET_KEYWORD }}
+          # Residential proxy so Target doesn't captcha-block the cloud runner.
+          # Add a free ScraperAPI key as a repo *Secret* named SCRAPER_API_KEY.
+          # Without it, cloud runs will be blocked (they still fail safe).
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
         run: node scripts/fetch-socks.mjs
 
       - name: Commit data if it changed

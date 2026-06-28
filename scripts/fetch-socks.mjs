@@ -14,7 +14,7 @@
  */
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
 import { randomUUID } from "node:crypto";
 import { config } from "../lib/config.mjs";
@@ -41,6 +41,31 @@ function loadExisting() {
   }
 }
 
+/**
+ * Wrap a Target URL so the request is made from a residential IP that Target
+ * trusts. Target captcha-blocks datacenter IPs (Vercel, GitHub Actions, etc.),
+ * so for unattended cloud runs we route through ScraperAPI's free tier
+ * (https://www.scraperapi.com — 1,000 requests/month free). Set SCRAPER_API_KEY
+ * as a GitHub Actions secret to enable it. Without a key, we hit Target directly
+ * (which works from a residential connection, e.g. running `npm run fetch` at
+ * home, but gets captcha'd from the cloud).
+ */
+function viaProxy(targetUrl) {
+  const key = process.env.SCRAPER_API_KEY;
+  if (!key) return { url: targetUrl, forwardHeaders: true };
+
+  const params = new URLSearchParams({
+    api_key: key,
+    url: targetUrl,
+    keep_headers: "true",
+    // Residential pool — needed to get past Target. Costs more credits, but a
+    // once-a-day fetch stays well within the free monthly allowance.
+    premium: process.env.SCRAPER_PREMIUM === "false" ? "false" : "true",
+  });
+  // ScraperAPI forwards our headers when keep_headers=true.
+  return { url: `https://api.scraperapi.com/?${params}`, forwardHeaders: true };
+}
+
 async function fetchPage(offset, visitorId) {
   const params = new URLSearchParams({
     key: config.apiKey,
@@ -58,7 +83,8 @@ async function fetchPage(offset, visitorId) {
     sort_by: "newest",
   });
 
-  const url = `https://redsky.target.com/redsky_aggregations/v1/web/plp_search_v2?${params}`;
+  const targetUrl = `https://redsky.target.com/redsky_aggregations/v1/web/plp_search_v2?${params}`;
+  const { url } = viaProxy(targetUrl);
   const res = await fetch(url, {
     headers: {
       accept: "application/json",
@@ -226,6 +252,7 @@ async function main() {
 // Export pure helpers for testing; only run the fetcher when executed directly.
 export { normalize, merge };
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+// Robust "is this the entrypoint?" check that survives paths with spaces.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
   main();
 }
