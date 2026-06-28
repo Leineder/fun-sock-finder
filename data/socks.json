@@ -1,0 +1,69 @@
+{
+  "store": { "id": "3991", "name": "your Target" },
+  "updatedAt": "2026-06-28T00:00:00.000Z",
+  "lastFetchStatus": "sample",
+  "newWithinDays": 14,
+  "count": 6,
+  "socks": [
+    {
+      "tcin": "SAMPLE-1",
+      "title": "Women's Avocado Crew Socks",
+      "brand": "Xhilaration",
+      "price": "$5.00",
+      "image": "https://picsum.photos/seed/avocadosock/500/500",
+      "url": "https://www.target.com/",
+      "firstSeen": "2026-06-28",
+      "lastSeen": "2026-06-28"
+    },
+    {
+      "tcin": "SAMPLE-2",
+      "title": "Women's Rainbow Cat Ankle Socks 3pk",
+      "brand": "Xhilaration",
+      "price": "$8.00",
+      "image": "https://picsum.photos/seed/catsock/500/500",
+      "url": "https://www.target.com/",
+      "firstSeen": "2026-06-27",
+      "lastSeen": "2026-06-28"
+    },
+    {
+      "tcin": "SAMPLE-3",
+      "title": "Women's Strawberry Knit Crew Socks",
+      "brand": "A New Day",
+      "price": "$6.00",
+      "image": "https://picsum.photos/seed/strawberrysock/500/500",
+      "url": "https://www.target.com/",
+      "firstSeen": "2026-06-20",
+      "lastSeen": "2026-06-28"
+    },
+    {
+      "tcin": "SAMPLE-4",
+      "title": "Women's Smiley Face Crew Socks 2pk",
+      "brand": "A New Day",
+      "price": "$7.00",
+      "image": "https://picsum.photos/seed/smileysock/500/500",
+      "url": "https://www.target.com/",
+      "firstSeen": "2026-06-12",
+      "lastSeen": "2026-06-28"
+    },
+    {
+      "tcin": "SAMPLE-5",
+      "title": "Women's Mushroom Cozy Crew Socks",
+      "brand": "Xhilaration",
+      "price": "$5.00",
+      "image": "https://picsum.photos/seed/mushroomsock/500/500",
+      "url": "https://www.target.com/",
+      "firstSeen": "2026-06-05",
+      "lastSeen": "2026-06-28"
+    },
+    {
+      "tcin": "SAMPLE-6",
+      "title": "Women's Rainbow Stripe Crew Socks 3pk",
+      "brand": "A New Day",
+      "price": "$9.00",
+      "image": "https://picsum.photos/seed/rainbowsock/500/500",
+      "url": "https://www.target.com/",
+      "firstSeen": "2026-05-30",
+      "lastSeen": "2026-06-28"
+    }
+  ]
+}

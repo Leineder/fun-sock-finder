@@ -1,0 +1,49 @@
+name: Fetch fun socks
+
+# Runs the fetcher on a schedule from GitHub's cloud (no laptop needed).
+# Target captcha-blocks some datacenter IPs, and each run gets a fresh runner
+# IP, so we try several times a day. Any blocked run fails safe (keeps the
+# last good data); the next run with a new IP tries again.
+on:
+  schedule:
+    # Every 3 hours (UTC). GitHub may delay scheduled runs under load.
+    - cron: "0 */3 * * *"
+  workflow_dispatch: # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write # needed to commit updated data back to the repo
+
+concurrency:
+  group: fetch-socks
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch newest socks
+        env:
+          # Set these in: repo Settings → Secrets and variables → Actions → Variables
+          TARGET_STORE_ID: ${{ vars.TARGET_STORE_ID }}
+          TARGET_STORE_NAME: ${{ vars.TARGET_STORE_NAME }}
+          TARGET_KEYWORD: ${{ vars.TARGET_KEYWORD }}
+        run: node scripts/fetch-socks.mjs
+
+      - name: Commit data if it changed
+        run: |
+          git config user.name "sock-bot"
+          git config user.email "sock-bot@users.noreply.github.com"
+          if git diff --quiet -- data/socks.json; then
+            echo "No sock changes this run."
+          else
+            git add data/socks.json
+            git commit -m "🧦 Update socks ($(date -u +%Y-%m-%d' '%H:%M' UTC'))"
+            git push
+            echo "Pushed updated socks."
+          fi

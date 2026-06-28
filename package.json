@@ -1,0 +1,24 @@
+{
+  "name": "fun-sock-finder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Finds the newest fun socks at a specific Target store, with pictures.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fetch": "node scripts/fetch-socks.mjs"
+  },
+  "dependencies": {
+    "next": "^14.2.35",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.10",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.5.3"
+  }
+}
