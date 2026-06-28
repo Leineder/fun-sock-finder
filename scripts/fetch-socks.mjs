@@ -52,18 +52,22 @@ function loadExisting() {
  */
 function viaProxy(targetUrl) {
   const key = process.env.SCRAPER_API_KEY;
+  // Direct: send our own browser-like headers (works from a residential IP).
   if (!key) return { url: targetUrl, forwardHeaders: true };
 
   const params = new URLSearchParams({
     api_key: key,
     url: targetUrl,
-    keep_headers: "true",
-    // Residential pool — needed to get past Target. Costs more credits, but a
-    // once-a-day fetch stays well within the free monthly allowance.
+    // Residential pool — required to get past Target. Costs more credits, but
+    // a low-frequency fetch stays well within the free monthly allowance.
     premium: process.env.SCRAPER_PREMIUM === "false" ? "false" : "true",
+    // Target is US-only and rejects/penalizes foreign exit IPs, so pin US
+    // residential addresses — this is what makes the proxy reliable here.
+    country_code: process.env.SCRAPER_COUNTRY || "us",
   });
-  // ScraperAPI forwards our headers when keep_headers=true.
-  return { url: `https://api.scraperapi.com/?${params}`, forwardHeaders: true };
+  // Through ScraperAPI we let IT manage request headers — forwarding our own
+  // (keep_headers) conflicts with its anti-bot handling and returns HTTP 500.
+  return { url: `https://api.scraperapi.com/?${params}`, forwardHeaders: false };
 }
 
 async function fetchPage(offset, visitorId) {
@@ -84,38 +88,76 @@ async function fetchPage(offset, visitorId) {
   });
 
   const targetUrl = `https://redsky.target.com/redsky_aggregations/v1/web/plp_search_v2?${params}`;
-  const { url } = viaProxy(targetUrl);
-  const res = await fetch(url, {
-    headers: {
-      accept: "application/json",
-      "accept-language": "en-US,en;q=0.9",
-      origin: "https://www.target.com",
-      referer: "https://www.target.com/",
-      "sec-fetch-dest": "empty",
-      "sec-fetch-mode": "cors",
-      "sec-fetch-site": "same-site",
-      "user-agent":
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-    },
-  });
+  const { url, forwardHeaders } = viaProxy(targetUrl);
 
-  const text = await res.text();
-  let json;
-  try {
-    json = JSON.parse(text);
-  } catch {
-    throw new Error(`Non-JSON response (HTTP ${res.status})`);
-  }
+  // Browser-like headers only when hitting Target directly. Through ScraperAPI
+  // we send none and let the proxy handle anti-bot headers itself.
+  const headers = forwardHeaders
+    ? {
+        accept: "application/json",
+        "accept-language": "en-US,en;q=0.9",
+        origin: "https://www.target.com",
+        referer: "https://www.target.com/",
+        "sec-fetch-dest": "empty",
+        "sec-fetch-mode": "cors",
+        "sec-fetch-site": "same-site",
+        "user-agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+      }
+    : { accept: "application/json" };
 
-  if (json.captchaRelativeURL || json.captchaAbsoluteURL) {
-    const err = new Error("Target served a captcha (IP likely flagged)");
-    err.blocked = true;
-    throw err;
+  // The residential proxy intermittently returns 500 (it couldn't land a good
+  // exit IP on that try). Retrying usually succeeds with a different IP, so we
+  // attempt a few times with backoff before giving up.
+  const maxTries = forwardHeaders ? 2 : 7;
+  let lastErr;
+  for (let attempt = 1; attempt <= maxTries; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers,
+        signal: AbortSignal.timeout(90_000),
+      });
+      const text = await res.text();
+
+      let json;
+      try {
+        json = JSON.parse(text);
+      } catch {
+        throw new Error(`Non-JSON response (HTTP ${res.status})`);
+      }
+
+      if (json.captchaRelativeURL || json.captchaAbsoluteURL) {
+        const err = new Error("Target served a captcha (IP likely flagged)");
+        err.blocked = true;
+        throw err; // not retryable from the same IP context
+      }
+      if (res.status !== 200) {
+        throw new Error(`HTTP ${res.status}: ${text.slice(0, 120)}`);
+      }
+      return json;
+    } catch (err) {
+      if (err.blocked) throw err;
+      lastErr = err;
+      if (attempt < maxTries) {
+        const wait = 1500 * attempt;
+        console.log(`  …retry ${attempt}/${maxTries - 1} after ${err.message}`);
+        await new Promise((r) => setTimeout(r, wait));
+      }
+    }
   }
-  if (res.status !== 200) {
-    throw new Error(`HTTP ${res.status}: ${text.slice(0, 200)}`);
-  }
-  return json;
+  throw lastErr;
+}
+
+/** Decode the HTML entities Target embeds in product titles (&#39; &#8482; …). */
+function decodeEntities(s) {
+  return s
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&amp;/g, "&")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">");
 }
 
 /** Pull a product object out of RedSky's response shape, defensively. */
@@ -123,17 +165,17 @@ function normalize(p) {
   const item = p.item || {};
   const desc = item.product_description || {};
   const enrichment = item.enrichment || {};
-  const images = enrichment.images || {};
+  const imageInfo = enrichment.image_info || {};
   const price = p.price || {};
   const brand = item.primary_brand || {};
 
   const tcin = p.tcin || item.tcin;
   if (!tcin) return null;
 
-  const title = (desc.title || "").replace(/&#38;/g, "&").trim();
+  const title = decodeEntities(desc.title || "").trim();
   const image =
-    images.primary_image_url ||
-    (Array.isArray(images.alternate_image_urls) && images.alternate_image_urls[0]) ||
+    imageInfo.primary_image?.url ||
+    imageInfo.alternate_images?.[0]?.url ||
     null;
   const url =
     enrichment.buy_url || `https://www.target.com/p/-/A-${tcin}`;
@@ -167,7 +209,25 @@ async function fetchAll() {
     // Be gentle: small pause between pages.
     await new Promise((r) => setTimeout(r, 400 + Math.random() * 400));
   }
-  return [...seen.values()];
+
+  // The same design is often listed once per size (Medium, Large, …). Collapse
+  // those to a single card by keying on the title with size words stripped.
+  const byDesign = new Map();
+  for (const sock of seen.values()) {
+    const key = designKey(sock);
+    if (!byDesign.has(key)) byDesign.set(key, sock);
+  }
+  return [...byDesign.values()];
+}
+
+/** A stable key for a sock "design", ignoring size so sizes don't duplicate. */
+function designKey(sock) {
+  let t = (sock.title || "").toLowerCase();
+  t = t.replace(/,?\s*(x{0,2}-?(small|large)|medium|xs|sm?|md?|lg?|xl|xxl)\s*$/i, "");
+  t = t.replace(/\b\d+(\.\d+)?\s*[-–]\s*\d+(\.\d+)?\b/g, " "); // shoe-size ranges
+  t = t.replace(/\b\d+\s*pairs?\b/gi, " "); // "4 Pairs"
+  t = t.replace(/[^a-z0-9]+/g, " ").trim();
+  return `${(sock.brand || "").toLowerCase()}|${t}` || sock.image || sock.tcin;
 }
 
 function merge(existing, fetched) {

@@ -6,8 +6,10 @@ name: Fetch fun socks
 # last good data); the next run with a new IP tries again.
 on:
   schedule:
-    # Every 3 hours (UTC). GitHub may delay scheduled runs under load.
-    - cron: "0 */3 * * *"
+    # Once a day at 14:10 UTC (~9-10am US Eastern). Kept to once daily to stay
+    # within the free ScraperAPI residential-credit allowance. GitHub may delay
+    # scheduled runs under load.
+    - cron: "10 14 * * *"
   workflow_dispatch: # lets you run it manually from the Actions tab
 
 permissions:
