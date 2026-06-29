@@ -16,7 +16,7 @@ past the hundred pairs you already own.
 ```
 GitHub Actions (daily, free)                 Vercel (free)
   └─ scripts/fetch-socks.mjs              └─ Next.js site reads data/socks.json
-       ├─ asks Target for "novelty socks"          (auto-redeploys on each commit)
+       ├─ asks Target for low socks, filters          (auto-redeploys on each commit)
        ├─ diffs vs. data/socks.json
        └─ commits the updated JSON  ──────────────▲
 ```
@@ -55,7 +55,7 @@ New repository variable**. Add:
 | ------------------- | ---------------- | ------------------------------------------------------- |
 | `TARGET_STORE_ID`   | `3991`           | Her local store's ID (see below)                        |
 | `TARGET_STORE_NAME` | `Target on Main` | Just for the page header                                |
-| `TARGET_KEYWORD`    | `novelty socks`      | Optional — what to search (e.g. `women's novelty socks`)|
+| `TARGET_KEYWORD`    | `no show socks`      | Optional — what to search (e.g. `women's novelty socks`)|
 
 **Finding the store ID:** go to target.com, click the store picker, choose her
 store, and look at the URL — it ends in the number, e.g.
@@ -104,8 +104,9 @@ in a local `.env`). Defaults live in `lib/config.mjs`.
 | ------------------------ | ------------------------ | ---------------------------------------- |
 | `TARGET_STORE_ID`        | `2570`                   | Store to check inventory for             |
 | `TARGET_STORE_NAME`      | `Target Marlborough East`| Display name in the header               |
-| `TARGET_KEYWORD`         | `novelty socks`              | Search term                              |
-| `TARGET_MAX_PRODUCTS`    | `72`                     | How many products to pull per run        |
+| `TARGET_KEYWORD`         | `no show socks`              | Search term                              |
+| `TARGET_MAX_PRODUCTS`    | `120`                    | How many products to pull per run        |
+| `SOCKS_LOW_ONLY`         | `true`                   | Keep only fun, low-cut (no-show/ankle) socks; set `false` for all lengths |
 | `SOCKS_NEW_WITHIN_DAYS`  | `14`                     | How long an item shows the **NEW** badge |
 | `SOCKS_DROP_AFTER_DAYS`  | `30`                     | Drop items not seen in a fetch this long |
 | `TARGET_API_KEY`         | (public web key)         | Override if Target rotates their key     |

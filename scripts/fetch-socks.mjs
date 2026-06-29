@@ -195,6 +195,34 @@ function normalize(p) {
   };
 }
 
+// --- "Low + fun" filtering -------------------------------------------------
+// She only wants socks that don't go above the ankle, and only the fun ones.
+// Target's data has no clean length field, but the title almost always states
+// it, so we filter on the title (set SOCKS_LOW_ONLY=false to disable).
+
+// Must look low-cut…
+const LOW_RE =
+  /\b(no[\s-]?shows?|low[\s-]?cut|liner|footie|foot[\s-]?cover|invisible|secret|ankle)\b/i;
+// …and must NOT mention anything that rises above the ankle.
+const HIGH_RE =
+  /\b(crew|knee[\s-]?high|knee|over[\s-]?the[\s-]?knee|otk|boot|tube|calf|thigh|mid[\s-]?crew|quarter)\b/i;
+// Drop athletic / medical / plain basics — "fun" socks aren't these.
+const BORING_RE =
+  /\b(diabetic|yoga|pilates|compression|grippers?|grip|no[\s-]?slip|non[\s-]?slip|athletic|sports?|running|cushioned|bamboo|thermal|merino|wool|hiking|hiker|seamless|non[\s-]?binding|dress|business|trouser|nylon|microfiber|casual|solid|textured|\brib\b|sheer|nude|heel[\s-]?protection|microfibre)\b/i;
+const BORING_BRANDS =
+  /(all in motion|hanes|gold toe|jockey|hugh ugoli|anna-?kaci|debra weitzner|wigwam|sock panda|fruit of the loom|\bpeds\b|dr\.?\s*scholl|smartwool|bombas|\bctm\b|alilang|muk luks)/i;
+
+function isLowFun(sock) {
+  if (process.env.SOCKS_LOW_ONLY === "false") return true;
+  const t = sock.title || "";
+  const b = sock.brand || "";
+  if (HIGH_RE.test(t)) return false; // explicitly rises above the ankle
+  if (!LOW_RE.test(t)) return false; // not clearly low-cut
+  if (BORING_RE.test(t)) return false; // athletic/medical basics
+  if (BORING_BRANDS.test(t) || BORING_BRANDS.test(b)) return false;
+  return true;
+}
+
 async function fetchAll() {
   const visitorId = randomVisitorId();
   const seen = new Map();
@@ -204,7 +232,7 @@ async function fetchAll() {
     if (products.length === 0) break;
     for (const raw of products) {
       const sock = normalize(raw);
-      if (sock && !seen.has(sock.tcin)) seen.set(sock.tcin, sock);
+      if (sock && isLowFun(sock) && !seen.has(sock.tcin)) seen.set(sock.tcin, sock);
     }
     // Be gentle: small pause between pages.
     await new Promise((r) => setTimeout(r, 400 + Math.random() * 400));
