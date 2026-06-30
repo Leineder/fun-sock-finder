@@ -3,11 +3,21 @@
     "id": "2570",
     "name": "Target Marlborough East"
   },
-  "updatedAt": "2026-06-29T17:13:22.249Z",
+  "updatedAt": "2026-06-30T16:36:14.403Z",
   "lastFetchStatus": "ok",
   "newWithinDays": 14,
-  "count": 16,
+  "count": 17,
   "socks": [
+    {
+      "tcin": "94892406",
+      "title": "Girls' 6pk Fruit & Bows Pointelle Super Soft No Show Socks - Cat & Jack™ Pink/Gray/Blue S",
+      "brand": "Cat & Jack",
+      "price": "$8.00",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_0092c37f-d6e6-4fb7-a4d5-2e057feee16a",
+      "url": "https://www.target.com/p/girls-39-6pk-fruit-38-bows-pointelle-super-soft-no-show-socks-cat-38-jack-8482-pink-gray-blue-s/-/A-94892406",
+      "firstSeen": "2026-06-30",
+      "lastSeen": "2026-06-30"
+    },
     {
       "tcin": "1011966382",
       "title": "Elvis Presley Socks Men's King Of Rock 5 Pair No Show Sock OSFM Multicolored",
@@ -16,7 +26,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_9b7b7818-7962-4694-b4cf-ad1af46b6164",
       "url": "https://www.target.com/p/elvis-presley-socks-men-s-king-of-rock-5-pair-no-show-sock-osfm-multicolored/-/A-1011966382",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1012086110",
@@ -26,7 +36,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_80b9a271-c018-4e46-a486-90721571323a",
       "url": "https://www.target.com/p/sonic-the-hedgehog-character-heads-women-s-5-pair-pack-ankle-socks/-/A-1012086110",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1011682723",
@@ -36,7 +46,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_4d6bffeb-3574-4235-b9c6-a2f56dfa86a3",
       "url": "https://www.target.com/p/halloween-socks-women-s-michael-myers-everyday-is-halloween-5-pair-ankle-sock-size-9-11-multicolored/-/A-1011682723",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1011652003",
@@ -46,7 +56,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_98f3a59d-6b5c-4954-bb3b-26ef14240cc8",
       "url": "https://www.target.com/p/dr-pepper-mix-and-match-logo-designs-adult-5-pack-no-show-ankle-socks-5-pairs-multicolored/-/A-1011652003",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1011576176",
@@ -56,7 +66,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_597b6ae0-e511-4de6-886f-14b0d94be4b6",
       "url": "https://www.target.com/p/supergirl-movie-2026-logo-women-s-5-pair-pack-ankle-socks/-/A-1011576176",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1011433373",
@@ -66,7 +76,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_0dea5510-35f2-4c4f-a59e-52e3f9065ab1",
       "url": "https://www.target.com/p/u-p-d-inc-boy-s-spider-man-across-the-spiderverse-no-show-socks-6-pack-large-3-9-multiple/-/A-1011433373",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1011576175",
@@ -76,7 +86,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_3696c3f0-405b-476d-aa29-ba662474bc52",
       "url": "https://www.target.com/p/harry-potter-gryffindor-lions-women-s-5-pair-pack-ankle-socks/-/A-1011576175",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1011576171",
@@ -86,7 +96,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_e1f902c4-2933-4b83-9e71-6555e84304fc",
       "url": "https://www.target.com/p/harry-potter-ravenclaw-ravens-women-s-5-pair-pack-ankle-socks/-/A-1011576171",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1011576170",
@@ -96,17 +106,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_c9b935b8-3bfd-4d06-92e4-b9bbc69f0dde",
       "url": "https://www.target.com/p/demon-slayer-character-kanji-women-s-5-pair-pack-ankle-socks/-/A-1011576170",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
-    },
-    {
-      "tcin": "94892408",
-      "title": "Girls' 6pk Fruit & Bows Pointelle Super Soft No Show Socks - Cat & Jack™ Pink/Gray/Blue L",
-      "brand": "Cat & Jack",
-      "price": "$8.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_0092c37f-d6e6-4fb7-a4d5-2e057feee16a",
-      "url": "https://www.target.com/p/girls-39-6pk-fruit-38-bows-pointelle-super-soft-no-show-socks-cat-38-jack-8482-pink-gray-blue-l/-/A-94892408",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "94901792",
@@ -116,7 +116,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_3430b6f0-a563-4640-a63f-3a10fbb7845f",
       "url": "https://www.target.com/p/women-39-s-peanuts-scallop-edge-6pk-low-cut-socks-blue-4-10/-/A-94901792",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "94889311",
@@ -126,7 +126,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_fe07dc2f-06ae-4ea9-b2c8-60b3b7ee173b",
       "url": "https://www.target.com/p/women-39-sheart-38-flowers-liner-socks-a-new-day-8482-red-mix/-/A-94889311",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "94889308",
@@ -136,7 +136,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_72dce62c-7883-4b98-9232-ee034f07e79f",
       "url": "https://www.target.com/p/women-39-s-wildflowers-liner-socks-a-new-day-8482-colorful-mix/-/A-94889308",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "94889306",
@@ -146,7 +146,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_9ec8c6ac-3468-41e8-a558-7130d32250f6",
       "url": "https://www.target.com/p/women-39-s-floral-whispers-liner-socks-a-new-day-8482-moonbeam/-/A-94889306",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-06-29"
+      "lastSeen": "2026-06-30"
     },
     {
       "tcin": "1009346985",
@@ -155,6 +155,16 @@
       "price": "$20.95",
       "image": "https://target.scene7.com/is/image/Target/GUEST_cf27ae8f-0e5a-4f44-9568-b594e145de83",
       "url": "https://www.target.com/p/memoi-tropical-seahorse-fine-edge-liner-3-pack-white-one-size/-/A-1009346985",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-06-30"
+    },
+    {
+      "tcin": "94892408",
+      "title": "Girls' 6pk Fruit & Bows Pointelle Super Soft No Show Socks - Cat & Jack™ Pink/Gray/Blue L",
+      "brand": "Cat & Jack",
+      "price": "$8.00",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_0092c37f-d6e6-4fb7-a4d5-2e057feee16a",
+      "url": "https://www.target.com/p/girls-39-6pk-fruit-38-bows-pointelle-super-soft-no-show-socks-cat-38-jack-8482-pink-gray-blue-l/-/A-94892408",
       "firstSeen": "2026-06-29",
       "lastSeen": "2026-06-29"
     },
