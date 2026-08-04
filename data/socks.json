@@ -3,11 +3,31 @@
     "id": "2570",
     "name": "Target Marlborough East"
   },
-  "updatedAt": "2026-08-02T15:18:22.190Z",
+  "updatedAt": "2026-08-04T16:22:04.037Z",
   "lastFetchStatus": "ok",
   "newWithinDays": 14,
-  "count": 27,
+  "count": 28,
   "socks": [
+    {
+      "tcin": "1012831505",
+      "title": "Core Run Ultralight No Show Socks Neon Coral/Red X-Small",
+      "brand": "CEP Compression",
+      "price": "$18.00",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_7c4d0e64-ac30-4985-864d-739ab95f97f5",
+      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-neon-coral-red-x-small/-/A-1012831505",
+      "firstSeen": "2026-08-04",
+      "lastSeen": "2026-08-04"
+    },
+    {
+      "tcin": "1009740872",
+      "title": "Lands' End Women's 3-Pack No Show Socks - Small - Stripe/Orange Citrus Pack",
+      "brand": "Lands' End",
+      "price": "$24.95",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_07296457-a823-444c-b3e9-60ccd713b40a",
+      "url": "https://www.target.com/p/lands-end-women-s-3-pack-no-show-socks-small-stripe-orange-citrus-pack/-/A-1009740872",
+      "firstSeen": "2026-08-04",
+      "lastSeen": "2026-08-04"
+    },
     {
       "tcin": "1012831499",
       "title": "Core Run Ultralight No Show Socks Lilac/Pink X-Large",
@@ -116,7 +136,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_0092c37f-d6e6-4fb7-a4d5-2e057feee16a",
       "url": "https://www.target.com/p/girls-39-6pk-fruit-38-bows-pointelle-super-soft-no-show-socks-cat-38-jack-8482-pink-gray-blue-s/-/A-94892406",
       "firstSeen": "2026-06-30",
-      "lastSeen": "2026-07-29"
+      "lastSeen": "2026-08-04"
     },
     {
       "tcin": "1011966382",
@@ -126,7 +146,17 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_9b7b7818-7962-4694-b4cf-ad1af46b6164",
       "url": "https://www.target.com/p/elvis-presley-socks-men-s-king-of-rock-5-pair-no-show-sock-osfm-multicolored/-/A-1011966382",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-02"
+      "lastSeen": "2026-08-04"
+    },
+    {
+      "tcin": "1012086110",
+      "title": "Sonic The Hedgehog Character Heads Women’s 5-Pair Pack Ankle Socks",
+      "brand": "Sonic the Hedgehog",
+      "price": "$16.99",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_80b9a271-c018-4e46-a486-90721571323a",
+      "url": "https://www.target.com/p/sonic-the-hedgehog-character-heads-women-s-5-pair-pack-ankle-socks/-/A-1012086110",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-08-04"
     },
     {
       "tcin": "1011682723",
@@ -136,7 +166,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_4d6bffeb-3574-4235-b9c6-a2f56dfa86a3",
       "url": "https://www.target.com/p/halloween-socks-women-s-michael-myers-everyday-is-halloween-5-pair-ankle-sock-size-9-11-multicolored/-/A-1011682723",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-02"
+      "lastSeen": "2026-08-04"
     },
     {
       "tcin": "1011652003",
@@ -146,7 +176,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_98f3a59d-6b5c-4954-bb3b-26ef14240cc8",
       "url": "https://www.target.com/p/dr-pepper-mix-and-match-logo-designs-adult-5-pack-no-show-ankle-socks-5-pairs-multicolored/-/A-1011652003",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-02"
+      "lastSeen": "2026-08-04"
     },
     {
       "tcin": "1011576176",
@@ -156,7 +186,47 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_597b6ae0-e511-4de6-886f-14b0d94be4b6",
       "url": "https://www.target.com/p/supergirl-movie-2026-logo-women-s-5-pair-pack-ankle-socks/-/A-1011576176",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-02"
+      "lastSeen": "2026-08-04"
+    },
+    {
+      "tcin": "94901792",
+      "title": "Women's Peanuts Scallop Edge 6pk Low Cut Socks - Blue 4-10",
+      "brand": "Peanuts",
+      "price": "$10.00",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_3430b6f0-a563-4640-a63f-3a10fbb7845f",
+      "url": "https://www.target.com/p/women-39-s-peanuts-scallop-edge-6pk-low-cut-socks-blue-4-10/-/A-94901792",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-08-04"
+    },
+    {
+      "tcin": "94889311",
+      "title": "Women's Heart & Flowers Liner Socks - A New Day™ Red Mix",
+      "brand": "A New Day",
+      "price": "$6.80",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_fe07dc2f-06ae-4ea9-b2c8-60b3b7ee173b",
+      "url": "https://www.target.com/p/women-39-sheart-38-flowers-liner-socks-a-new-day-8482-red-mix/-/A-94889311",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-08-04"
+    },
+    {
+      "tcin": "94889308",
+      "title": "Women's Wildflowers Liner Socks - A New Day™ Colorful Mix",
+      "brand": "A New Day",
+      "price": "$6.80",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_72dce62c-7883-4b98-9232-ee034f07e79f",
+      "url": "https://www.target.com/p/women-39-s-wildflowers-liner-socks-a-new-day-8482-colorful-mix/-/A-94889308",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-08-04"
+    },
+    {
+      "tcin": "94889306",
+      "title": "Women's Floral Whispers Liner Socks - A New Day™ Moonbeam",
+      "brand": "A New Day",
+      "price": "$6.80",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_9ec8c6ac-3468-41e8-a558-7130d32250f6",
+      "url": "https://www.target.com/p/women-39-s-floral-whispers-liner-socks-a-new-day-8482-moonbeam/-/A-94889306",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-08-04"
     },
     {
       "tcin": "1011576175",
@@ -199,46 +269,6 @@
       "lastSeen": "2026-08-02"
     },
     {
-      "tcin": "94901792",
-      "title": "Women's Peanuts Scallop Edge 6pk Low Cut Socks - Blue 4-10",
-      "brand": "Peanuts",
-      "price": "$10.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_3430b6f0-a563-4640-a63f-3a10fbb7845f",
-      "url": "https://www.target.com/p/women-39-s-peanuts-scallop-edge-6pk-low-cut-socks-blue-4-10/-/A-94901792",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-02"
-    },
-    {
-      "tcin": "94889311",
-      "title": "Women's Heart & Flowers Liner Socks - A New Day™ Red Mix",
-      "brand": "A New Day",
-      "price": "$6.80",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_fe07dc2f-06ae-4ea9-b2c8-60b3b7ee173b",
-      "url": "https://www.target.com/p/women-39-sheart-38-flowers-liner-socks-a-new-day-8482-red-mix/-/A-94889311",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-02"
-    },
-    {
-      "tcin": "94889308",
-      "title": "Women's Wildflowers Liner Socks - A New Day™ Colorful Mix",
-      "brand": "A New Day",
-      "price": "$6.80",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_72dce62c-7883-4b98-9232-ee034f07e79f",
-      "url": "https://www.target.com/p/women-39-s-wildflowers-liner-socks-a-new-day-8482-colorful-mix/-/A-94889308",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-02"
-    },
-    {
-      "tcin": "94889306",
-      "title": "Women's Floral Whispers Liner Socks - A New Day™ Moonbeam",
-      "brand": "A New Day",
-      "price": "$6.80",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_9ec8c6ac-3468-41e8-a558-7130d32250f6",
-      "url": "https://www.target.com/p/women-39-s-floral-whispers-liner-socks-a-new-day-8482-moonbeam/-/A-94889306",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-02"
-    },
-    {
       "tcin": "1009346985",
       "title": "Memoi Tropical Seahorse Fine Edge Liner 3 Pack White One Size",
       "brand": "MeMoi",
@@ -249,16 +279,6 @@
       "lastSeen": "2026-08-02"
     },
     {
-      "tcin": "1012086110",
-      "title": "Sonic The Hedgehog Character Heads Women’s 5-Pair Pack Ankle Socks",
-      "brand": "Sonic the Hedgehog",
-      "price": "$16.99",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_80b9a271-c018-4e46-a486-90721571323a",
-      "url": "https://www.target.com/p/sonic-the-hedgehog-character-heads-women-s-5-pair-pack-ankle-socks/-/A-1012086110",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-01"
-    },
-    {
       "tcin": "1011433376",
       "title": "U.P.D., INC Boy's Spider-Man Across The Spiderverse No Show Socks (6 Pack), Small (4.5-8.5), Multiple",
       "brand": "U.P.D., Inc.",
@@ -267,16 +287,6 @@
       "url": "https://www.target.com/p/u-p-d-inc-boy-s-spider-man-across-the-spiderverse-no-show-socks-6-pack-small-4-5-8-5-multiple/-/A-1011433376",
       "firstSeen": "2026-06-29",
       "lastSeen": "2026-08-01"
-    },
-    {
-      "tcin": "1011433373",
-      "title": "U.P.D., INC Boy's Spider-Man Across The Spiderverse No Show Socks (6 Pack), Large (3-9), Multiple",
-      "brand": "U.P.D., Inc.",
-      "price": "$20.44",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_0dea5510-35f2-4c4f-a59e-52e3f9065ab1",
-      "url": "https://www.target.com/p/u-p-d-inc-boy-s-spider-man-across-the-spiderverse-no-show-socks-6-pack-large-3-9-multiple/-/A-1011433373",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-07-03"
     }
   ]
 }
