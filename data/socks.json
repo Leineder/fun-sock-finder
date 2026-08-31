@@ -3,11 +3,41 @@
     "id": "2570",
     "name": "Target Marlborough East"
   },
-  "updatedAt": "2026-08-30T18:03:47.822Z",
+  "updatedAt": "2026-08-31T20:03:18.727Z",
   "lastFetchStatus": "ok",
   "newWithinDays": 14,
-  "count": 46,
+  "count": 49,
   "socks": [
+    {
+      "tcin": "1012831491",
+      "title": "Core Run Ultralight No Show Socks Blue/Dark Blue Small",
+      "brand": "CEP Compression",
+      "price": "$18.00",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_1e0e8f5f-4b18-4765-8b76-24b18a5c7faf",
+      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-blue-dark-blue-small/-/A-1012831491",
+      "firstSeen": "2026-08-31",
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "tcin": "1012837079",
+      "title": "Core Run No Show Socks 5.0 Lime/Black Medium",
+      "brand": "CEP Compression",
+      "price": "$18.00",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_bdf0d797-d6fe-43fb-8d62-ae0e8d18fc12",
+      "url": "https://www.target.com/p/core-run-no-show-socks-5-0-lime-black-medium/-/A-1012837079",
+      "firstSeen": "2026-08-31",
+      "lastSeen": "2026-08-31"
+    },
+    {
+      "tcin": "1012792682",
+      "title": "Core Run Cushion No Show Socks Red Small",
+      "brand": "CEP Compression",
+      "price": "$18.00",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_1ecaa0c2-dddf-407c-b16a-88e7ad943c3e",
+      "url": "https://www.target.com/p/core-run-cushion-no-show-socks-red-small/-/A-1012792682",
+      "firstSeen": "2026-08-31",
+      "lastSeen": "2026-08-31"
+    },
     {
       "tcin": "1013362648",
       "title": "Dragon Ball Z Character Ankle Socks 5 Pack For Women",
@@ -16,7 +46,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_3fc11876-a3af-46e8-bb4b-2f5be82193db",
       "url": "https://www.target.com/p/dragon-ball-z-character-ankle-socks-5-pack-for-women/-/A-1013362648",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1012792698",
@@ -46,7 +76,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_14c056d9-9819-4d72-9981-674b1fb522d7",
       "url": "https://www.target.com/p/women-39-s-bow-2pk-cozy-liner-socks-cream-4-10/-/A-95267976",
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "95267970",
@@ -56,7 +86,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_a2673773-d58a-432d-8345-b58b62c5f6be",
       "url": "https://www.target.com/p/women-39-s-leopard-2pk-cozy-liner-socks-tan-4-10/-/A-95267970",
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1009716157",
@@ -66,7 +96,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_7e78dc38-9242-457c-85b4-1ce724206b69",
       "url": "https://www.target.com/p/women-39-s-doxie-2pk-cozy-liner-socks-cream-4-10/-/A-1009716157",
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1009716156",
@@ -76,7 +106,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_87c3ee4d-1d62-423c-8abc-13ab6a905545",
       "url": "https://www.target.com/p/women-39-s-capybara-2pk-cozy-liner-socks-black-4-10/-/A-1009716156",
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1012792696",
@@ -146,7 +176,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_355c3783-2978-4cbd-bc75-cef595b430d4",
       "url": "https://www.target.com/p/jaws-movie-women-s-ankle-socks-pack-of-5/-/A-1013096147",
       "firstSeen": "2026-08-11",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1013096146",
@@ -156,7 +186,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_de1ba442-cfc9-4bb0-b8de-a3ee1dc186bb",
       "url": "https://www.target.com/p/harry-potter-house-of-slytherin-women-s-ankle-socks-pack-of-5/-/A-1013096146",
       "firstSeen": "2026-08-11",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1013096140",
@@ -166,7 +196,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_1199b6bf-f87c-4bfb-84f3-2c5e50e3bca8",
       "url": "https://www.target.com/p/lord-of-the-rings-favorite-characters-women-s-ankle-socks-pack-of-5/-/A-1013096140",
       "firstSeen": "2026-08-11",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1012831484",
@@ -326,7 +356,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_9b7b7818-7962-4694-b4cf-ad1af46b6164",
       "url": "https://www.target.com/p/elvis-presley-socks-men-s-king-of-rock-5-pair-no-show-sock-osfm-multicolored/-/A-1011966382",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1012086110",
@@ -336,7 +366,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_80b9a271-c018-4e46-a486-90721571323a",
       "url": "https://www.target.com/p/sonic-the-hedgehog-character-heads-women-s-5-pair-pack-ankle-socks/-/A-1012086110",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1011576176",
@@ -346,7 +376,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_597b6ae0-e511-4de6-886f-14b0d94be4b6",
       "url": "https://www.target.com/p/supergirl-movie-2026-logo-women-s-5-pair-pack-ankle-socks/-/A-1011576176",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1011576175",
@@ -356,7 +386,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_3696c3f0-405b-476d-aa29-ba662474bc52",
       "url": "https://www.target.com/p/harry-potter-gryffindor-lions-women-s-5-pair-pack-ankle-socks/-/A-1011576175",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1011576171",
@@ -366,7 +396,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_e1f902c4-2933-4b83-9e71-6555e84304fc",
       "url": "https://www.target.com/p/harry-potter-ravenclaw-ravens-women-s-5-pair-pack-ankle-socks/-/A-1011576171",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1011576170",
@@ -376,7 +406,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_c9b935b8-3bfd-4d06-92e4-b9bbc69f0dde",
       "url": "https://www.target.com/p/demon-slayer-character-kanji-women-s-5-pair-pack-ankle-socks/-/A-1011576170",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "94901792",
@@ -386,7 +416,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_3430b6f0-a563-4640-a63f-3a10fbb7845f",
       "url": "https://www.target.com/p/women-39-s-peanuts-scallop-edge-6pk-low-cut-socks-blue-4-10/-/A-94901792",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-08-30"
+      "lastSeen": "2026-08-31"
     },
     {
       "tcin": "1011682723",
