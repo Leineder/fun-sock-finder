@@ -3,11 +3,51 @@
     "id": "2570",
     "name": "Target Marlborough East"
   },
-  "updatedAt": "2026-10-07T19:58:09.594Z",
+  "updatedAt": "2026-10-28T19:32:02.813Z",
   "lastFetchStatus": "ok",
   "newWithinDays": 14,
-  "count": 49,
+  "count": 36,
   "socks": [
+    {
+      "tcin": "1014500007",
+      "title": "Sanrio Hello Kitty and Friends No Show Socks Women's Character Print 5 Pair Multicolored",
+      "brand": "HYP",
+      "price": "$29.99",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_8a422cb3-f267-4ec7-a23f-88ed28eb463f",
+      "url": "https://www.target.com/p/sanrio-hello-kitty-and-friends-no-show-socks-women-s-character-print-5-pair-multicolored/-/A-1014500007",
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28"
+    },
+    {
+      "tcin": "95274449",
+      "title": "Goldtoe Signature Collection Women's Modern Essentials Liner Socks 6pk - Black 4-10",
+      "brand": "GOLDTOE Signature Collection",
+      "price": "$8.99",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_7b386616-3096-4958-8e9c-14a21e468276",
+      "url": "https://www.target.com/p/goldtoe-signature-collection-women-39-s-modern-essentials-liner-socks-6pk-black-4-10/-/A-95274449",
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28"
+    },
+    {
+      "tcin": "95274446",
+      "title": "Goldtoe Signature Collection Women's Modern Essentials Liner Socks 6pk - Blue 4-10",
+      "brand": "GOLDTOE Signature Collection",
+      "price": "$8.99",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_b7dd8105-601f-4c9f-aaae-2520b28304e9",
+      "url": "https://www.target.com/p/goldtoe-signature-collection-women-39-s-modern-essentials-liner-socks-6pk-blue-4-10/-/A-95274446",
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28"
+    },
+    {
+      "tcin": "1012831493",
+      "title": "Core Run Ultralight No Show Socks Blue/Dark Blue Large",
+      "brand": "CEP Compression",
+      "price": "$18.00",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_1e0e8f5f-4b18-4765-8b76-24b18a5c7faf",
+      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-blue-dark-blue-large/-/A-1012831493",
+      "firstSeen": "2026-10-28",
+      "lastSeen": "2026-10-28"
+    },
     {
       "tcin": "1012831491",
       "title": "Core Run Ultralight No Show Socks Blue/Dark Blue Small",
@@ -46,7 +86,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_1315b6c9-acbd-4188-bd86-1cbd0143b468",
       "url": "https://www.target.com/p/girls-39-6pk-scallop-edge-no-show-socks-cat-38-jack-8482-pink-red-s/-/A-95075551",
       "firstSeen": "2026-10-01",
-      "lastSeen": "2026-10-04"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1013486452",
@@ -56,7 +96,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_4b72e973-af27-4409-a9af-4052fb5e4414",
       "url": "https://www.target.com/p/star-wars-episode-iv-characters-logos-ankle-sock-5-pack/-/A-1013486452",
       "firstSeen": "2026-09-29",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "95075552",
@@ -99,16 +139,6 @@
       "lastSeen": "2026-09-28"
     },
     {
-      "tcin": "1012831500",
-      "title": "Core Run Ultralight No Show Socks Black X-Small",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_7dee4b86-b5f8-41e4-8f5d-9ed9f2176671",
-      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-black-x-small/-/A-1012831500",
-      "firstSeen": "2026-09-15",
-      "lastSeen": "2026-09-15"
-    },
-    {
       "tcin": "1012837091",
       "title": "Core Run No Show Socks 5.0 Blue/Ice X-Large",
       "brand": "CEP Compression",
@@ -119,46 +149,6 @@
       "lastSeen": "2026-10-07"
     },
     {
-      "tcin": "1012831495",
-      "title": "Core Run Ultralight No Show Socks Lilac/Pink X-Small",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_a6646db7-e008-4c90-bf40-af5f5e7614b0",
-      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-lilac-pink-x-small/-/A-1012831495",
-      "firstSeen": "2026-09-12",
-      "lastSeen": "2026-09-12"
-    },
-    {
-      "tcin": "1012831506",
-      "title": "Core Run Ultralight No Show Socks Neon Coral/Red Small",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_7c4d0e64-ac30-4985-864d-739ab95f97f5",
-      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-neon-coral-red-small/-/A-1012831506",
-      "firstSeen": "2026-09-11",
-      "lastSeen": "2026-09-11"
-    },
-    {
-      "tcin": "1012831496",
-      "title": "Core Run Ultralight No Show Socks Lilac/Pink Small",
-      "brand": "CEP Compression",
-      "price": "$16.20",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_a6646db7-e008-4c90-bf40-af5f5e7614b0",
-      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-lilac-pink-small/-/A-1012831496",
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07"
-    },
-    {
-      "tcin": "1012837080",
-      "title": "Core Run No Show Socks 5.0 Lime/Black Large",
-      "brand": "CEP Compression",
-      "price": "$16.20",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_bdf0d797-d6fe-43fb-8d62-ae0e8d18fc12",
-      "url": "https://www.target.com/p/core-run-no-show-socks-5-0-lime-black-large/-/A-1012837080",
-      "firstSeen": "2026-09-07",
-      "lastSeen": "2026-09-07"
-    },
-    {
       "tcin": "1013486460",
       "title": "Spider-Man Classic Ankle Socks 5 Pack for Women",
       "brand": "Bioworld",
@@ -166,7 +156,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_e5c4633e-b9e1-433b-a18e-d03318c4ebc9",
       "url": "https://www.target.com/p/spider-man-classic-ankle-socks-5-pack-for-women/-/A-1013486460",
       "firstSeen": "2026-09-06",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1013486459",
@@ -176,7 +166,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_09ac6cb3-9f52-4a7d-8ee8-9695f7ccab7f",
       "url": "https://www.target.com/p/moana-characters-5-pair-ankle-sock-pack-for-women/-/A-1013486459",
       "firstSeen": "2026-09-06",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1012831503",
@@ -189,36 +179,6 @@
       "lastSeen": "2026-10-07"
     },
     {
-      "tcin": "1012831508",
-      "title": "Core Run Ultralight No Show Socks Neon Coral/Red Large",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_7c4d0e64-ac30-4985-864d-739ab95f97f5",
-      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-neon-coral-red-large/-/A-1012831508",
-      "firstSeen": "2026-09-04",
-      "lastSeen": "2026-09-10"
-    },
-    {
-      "tcin": "1012792697",
-      "title": "Core Run Cushion No Show Socks Black Small",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_62492a30-d9fe-4afd-891d-032f626863dd",
-      "url": "https://www.target.com/p/core-run-cushion-no-show-socks-black-small/-/A-1012792697",
-      "firstSeen": "2026-09-03",
-      "lastSeen": "2026-09-14"
-    },
-    {
-      "tcin": "1012837087",
-      "title": "Core Run No Show Socks 5.0 Blue/Ice X-Small",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_f9820da6-cc73-476e-a4f5-02f5a0347368",
-      "url": "https://www.target.com/p/core-run-no-show-socks-5-0-blue-ice-x-small/-/A-1012837087",
-      "firstSeen": "2026-09-03",
-      "lastSeen": "2026-09-13"
-    },
-    {
       "tcin": "1012837079",
       "title": "Core Run No Show Socks 5.0 Lime/Black Medium",
       "brand": "CEP Compression",
@@ -229,16 +189,6 @@
       "lastSeen": "2026-09-30"
     },
     {
-      "tcin": "1012792682",
-      "title": "Core Run Cushion No Show Socks Red Small",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_1ecaa0c2-dddf-407c-b16a-88e7ad943c3e",
-      "url": "https://www.target.com/p/core-run-cushion-no-show-socks-red-small/-/A-1012792682",
-      "firstSeen": "2026-08-31",
-      "lastSeen": "2026-09-09"
-    },
-    {
       "tcin": "1013362648",
       "title": "Dragon Ball Z Character Ankle Socks 5 Pack For Women",
       "brand": "Bioworld",
@@ -246,17 +196,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_edcecf87-6e09-4771-ac90-5813783e9dfb",
       "url": "https://www.target.com/p/dragon-ball-z-character-ankle-socks-5-pack-for-women/-/A-1013362648",
       "firstSeen": "2026-08-29",
-      "lastSeen": "2026-10-07"
-    },
-    {
-      "tcin": "1012792698",
-      "title": "Core Run Cushion No Show Socks Black Medium",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_62492a30-d9fe-4afd-891d-032f626863dd",
-      "url": "https://www.target.com/p/core-run-cushion-no-show-socks-black-medium/-/A-1012792698",
-      "firstSeen": "2026-08-29",
-      "lastSeen": "2026-09-15"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "95267976",
@@ -266,7 +206,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_14c056d9-9819-4d72-9981-674b1fb522d7",
       "url": "https://www.target.com/p/women-39-s-bow-2pk-cozy-liner-socks-cream-4-10/-/A-95267976",
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "95267970",
@@ -276,7 +216,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_a2673773-d58a-432d-8345-b58b62c5f6be",
       "url": "https://www.target.com/p/women-39-s-leopard-2pk-cozy-liner-socks-tan-4-10/-/A-95267970",
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1009716157",
@@ -286,7 +226,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_7e78dc38-9242-457c-85b4-1ce724206b69",
       "url": "https://www.target.com/p/women-39-s-doxie-2pk-cozy-liner-socks-cream-4-10/-/A-1009716157",
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1009716156",
@@ -296,27 +236,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_87c3ee4d-1d62-423c-8abc-13ab6a905545",
       "url": "https://www.target.com/p/women-39-s-capybara-2pk-cozy-liner-socks-black-4-10/-/A-1009716156",
       "firstSeen": "2026-08-28",
-      "lastSeen": "2026-10-07"
-    },
-    {
-      "tcin": "1012837086",
-      "title": "Core Run No Show Socks 5.0 Grey X-Large",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_f75600e0-3899-4999-8db9-ad2a1aac3ee3",
-      "url": "https://www.target.com/p/core-run-no-show-socks-5-0-grey-x-large/-/A-1012837086",
-      "firstSeen": "2026-08-15",
-      "lastSeen": "2026-09-10"
-    },
-    {
-      "tcin": "1012831492",
-      "title": "Core Run Ultralight No Show Socks Blue/Dark Blue Medium",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_1e0e8f5f-4b18-4765-8b76-24b18a5c7faf",
-      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-blue-dark-blue-medium/-/A-1012831492",
-      "firstSeen": "2026-08-12",
-      "lastSeen": "2026-09-14"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1013096147",
@@ -326,17 +246,17 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_355c3783-2978-4cbd-bc75-cef595b430d4",
       "url": "https://www.target.com/p/jaws-movie-women-s-ankle-socks-pack-of-5/-/A-1013096147",
       "firstSeen": "2026-08-11",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1013096146",
       "title": "Harry Potter House of Slytherin Women's Ankle Socks (Pack of 5)",
       "brand": "Harry Potter",
-      "price": "$14.99",
+      "price": "$16.99",
       "image": "https://target.scene7.com/is/image/Target/GUEST_de1ba442-cfc9-4bb0-b8de-a3ee1dc186bb",
       "url": "https://www.target.com/p/harry-potter-house-of-slytherin-women-s-ankle-socks-pack-of-5/-/A-1013096146",
       "firstSeen": "2026-08-11",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1013096140",
@@ -346,17 +266,7 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_1199b6bf-f87c-4bfb-84f3-2c5e50e3bca8",
       "url": "https://www.target.com/p/lord-of-the-rings-favorite-characters-women-s-ankle-socks-pack-of-5/-/A-1013096140",
       "firstSeen": "2026-08-11",
-      "lastSeen": "2026-10-07"
-    },
-    {
-      "tcin": "1012831484",
-      "title": "Core Run Ultralight No Show Socks White X-Small",
-      "brand": "CEP Compression",
-      "price": "$18.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_2e9184b5-4587-418b-ace6-48ca0bed016d",
-      "url": "https://www.target.com/p/core-run-ultralight-no-show-socks-white-x-small/-/A-1012831484",
-      "firstSeen": "2026-08-09",
-      "lastSeen": "2026-09-09"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1011433375",
@@ -369,24 +279,14 @@
       "lastSeen": "2026-10-05"
     },
     {
-      "tcin": "94892407",
-      "title": "Girls' 6pk Fruit & Bows Pointelle Super Soft No Show Socks - Cat & Jack™ Pink/Gray/Blue M",
-      "brand": "Cat & Jack",
-      "price": "$8.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_0092c37f-d6e6-4fb7-a4d5-2e057feee16a",
-      "url": "https://www.target.com/p/girls-39-6pk-fruit-38-bows-pointelle-super-soft-no-show-socks-cat-38-jack-8482-pink-gray-blue-m/-/A-94892407",
-      "firstSeen": "2026-07-01",
-      "lastSeen": "2026-09-13"
-    },
-    {
-      "tcin": "94892406",
-      "title": "Girls' 6pk Fruit & Bows Pointelle Super Soft No Show Socks - Cat & Jack™ Pink/Gray/Blue S",
-      "brand": "Cat & Jack",
-      "price": "$8.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_0092c37f-d6e6-4fb7-a4d5-2e057feee16a",
-      "url": "https://www.target.com/p/girls-39-6pk-fruit-38-bows-pointelle-super-soft-no-show-socks-cat-38-jack-8482-pink-gray-blue-s/-/A-94892406",
-      "firstSeen": "2026-06-30",
-      "lastSeen": "2026-09-12"
+      "tcin": "1011966382",
+      "title": "Elvis Presley Socks Men's King Of Rock 5 Pair No Show Sock OSFM Multicolored",
+      "brand": "Perri's Socks",
+      "price": "$23.99",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_9b7b7818-7962-4694-b4cf-ad1af46b6164",
+      "url": "https://www.target.com/p/elvis-presley-socks-men-s-king-of-rock-5-pair-no-show-sock-osfm-multicolored/-/A-1011966382",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1012086110",
@@ -396,77 +296,37 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_80b9a271-c018-4e46-a486-90721571323a",
       "url": "https://www.target.com/p/sonic-the-hedgehog-character-heads-women-s-5-pair-pack-ankle-socks/-/A-1012086110",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1011682723",
       "title": "Halloween Socks Women's Michael Myers Everyday Is Halloween 5 Pair Ankle Sock Size 9-11 Multicolored",
       "brand": "Bioworld",
-      "price": "$17.99",
+      "price": "$14.99",
       "image": "https://target.scene7.com/is/image/Target/GUEST_4d6bffeb-3574-4235-b9c6-a2f56dfa86a3",
       "url": "https://www.target.com/p/halloween-socks-women-s-michael-myers-everyday-is-halloween-5-pair-ankle-sock-size-9-11-multicolored/-/A-1011682723",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1011652003",
       "title": "Dr. Pepper Mix and Match Logo Designs Adult 5-Pack No Show Ankle Socks 5 Pairs Multicolored",
       "brand": "CultureFly",
-      "price": "$14.39",
+      "price": "$17.99",
       "image": "https://target.scene7.com/is/image/Target/GUEST_98f3a59d-6b5c-4954-bb3b-26ef14240cc8",
       "url": "https://www.target.com/p/dr-pepper-mix-and-match-logo-designs-adult-5-pack-no-show-ankle-socks-5-pairs-multicolored/-/A-1011652003",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-07"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1011576176",
       "title": "Supergirl Movie 2026 Logo Women's 5-Pair Pack Ankle Socks",
       "brand": "Supergirl",
-      "price": "$14.99",
+      "price": "$16.99",
       "image": "https://target.scene7.com/is/image/Target/GUEST_597b6ae0-e511-4de6-886f-14b0d94be4b6",
       "url": "https://www.target.com/p/supergirl-movie-2026-logo-women-s-5-pair-pack-ankle-socks/-/A-1011576176",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-07"
-    },
-    {
-      "tcin": "1011576175",
-      "title": "Harry Potter Gryffindor Lions Women's 5-Pair Pack Ankle Socks",
-      "brand": "Harry Potter",
-      "price": "$14.99",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_3696c3f0-405b-476d-aa29-ba662474bc52",
-      "url": "https://www.target.com/p/harry-potter-gryffindor-lions-women-s-5-pair-pack-ankle-socks/-/A-1011576175",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-07"
-    },
-    {
-      "tcin": "1011576171",
-      "title": "Harry Potter Ravenclaw Ravens Women's 5-Pair Pack Ankle Socks",
-      "brand": "Harry Potter",
-      "price": "$14.99",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_e1f902c4-2933-4b83-9e71-6555e84304fc",
-      "url": "https://www.target.com/p/harry-potter-ravenclaw-ravens-women-s-5-pair-pack-ankle-socks/-/A-1011576171",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-07"
-    },
-    {
-      "tcin": "1011576170",
-      "title": "Demon Slayer Character Kanji Women's 5-Pair Pack Ankle Socks",
-      "brand": "Demon Slayer",
-      "price": "$14.99",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_c9b935b8-3bfd-4d06-92e4-b9bbc69f0dde",
-      "url": "https://www.target.com/p/demon-slayer-character-kanji-women-s-5-pair-pack-ankle-socks/-/A-1011576170",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-07"
-    },
-    {
-      "tcin": "1011966382",
-      "title": "Elvis Presley Socks Men's King Of Rock 5 Pair No Show Sock OSFM Multicolored",
-      "brand": "Perri's Socks",
-      "price": "$17.99",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_9b7b7818-7962-4694-b4cf-ad1af46b6164",
-      "url": "https://www.target.com/p/elvis-presley-socks-men-s-king-of-rock-5-pair-no-show-sock-osfm-multicolored/-/A-1011966382",
-      "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-05"
+      "lastSeen": "2026-10-28"
     },
     {
       "tcin": "1011433376",
@@ -476,27 +336,37 @@
       "image": "https://target.scene7.com/is/image/Target/GUEST_0dea5510-35f2-4c4f-a59e-52e3f9065ab1",
       "url": "https://www.target.com/p/u-p-d-inc-boy-s-spider-man-across-the-spiderverse-no-show-socks-6-pack-small-4-5-8-5-multiple/-/A-1011433376",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-10-02"
+      "lastSeen": "2026-10-28"
     },
     {
-      "tcin": "94901792",
-      "title": "Women's Peanuts Scallop Edge 6pk Low Cut Socks - Blue 4-10",
-      "brand": "Peanuts",
-      "price": "$10.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_3430b6f0-a563-4640-a63f-3a10fbb7845f",
-      "url": "https://www.target.com/p/women-39-s-peanuts-scallop-edge-6pk-low-cut-socks-blue-4-10/-/A-94901792",
+      "tcin": "1011576175",
+      "title": "Harry Potter Gryffindor Lions Women's 5-Pair Pack Ankle Socks",
+      "brand": "Harry Potter",
+      "price": "$16.99",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_3696c3f0-405b-476d-aa29-ba662474bc52",
+      "url": "https://www.target.com/p/harry-potter-gryffindor-lions-women-s-5-pair-pack-ankle-socks/-/A-1011576175",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-09-15"
+      "lastSeen": "2026-10-28"
     },
     {
-      "tcin": "94892408",
-      "title": "Girls' 6pk Fruit & Bows Pointelle Super Soft No Show Socks - Cat & Jack™ Pink/Gray/Blue L",
-      "brand": "Cat & Jack",
-      "price": "$8.00",
-      "image": "https://target.scene7.com/is/image/Target/GUEST_0092c37f-d6e6-4fb7-a4d5-2e057feee16a",
-      "url": "https://www.target.com/p/girls-39-6pk-fruit-38-bows-pointelle-super-soft-no-show-socks-cat-38-jack-8482-pink-gray-blue-l/-/A-94892408",
+      "tcin": "1011576171",
+      "title": "Harry Potter Ravenclaw Ravens Women's 5-Pair Pack Ankle Socks",
+      "brand": "Harry Potter",
+      "price": "$16.99",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_e1f902c4-2933-4b83-9e71-6555e84304fc",
+      "url": "https://www.target.com/p/harry-potter-ravenclaw-ravens-women-s-5-pair-pack-ankle-socks/-/A-1011576171",
       "firstSeen": "2026-06-29",
-      "lastSeen": "2026-09-11"
+      "lastSeen": "2026-10-28"
+    },
+    {
+      "tcin": "1011576170",
+      "title": "Demon Slayer Character Kanji Women's 5-Pair Pack Ankle Socks",
+      "brand": "Demon Slayer",
+      "price": "$16.99",
+      "image": "https://target.scene7.com/is/image/Target/GUEST_c9b935b8-3bfd-4d06-92e4-b9bbc69f0dde",
+      "url": "https://www.target.com/p/demon-slayer-character-kanji-women-s-5-pair-pack-ankle-socks/-/A-1011576170",
+      "firstSeen": "2026-06-29",
+      "lastSeen": "2026-10-28"
     }
   ]
 }
